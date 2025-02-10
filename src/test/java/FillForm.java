@@ -15,7 +15,7 @@ public class FillForm {
     }
 
     @Test
-    void cssForm() {
+    void cssFormTest() {
         open("/automation-practice-form");
         executeJavaScript("$('footer').remove()");
 
