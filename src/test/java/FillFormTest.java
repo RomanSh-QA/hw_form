@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class FillForm {
+public class FillFormTest {
     @BeforeAll
     static void configuration() {
         Configuration.browserSize  = "1920x1080";
@@ -15,7 +15,7 @@ public class FillForm {
     }
 
     @Test
-    void cssForm() {
+    void cssFormTest() {
         open("/automation-practice-form");
         executeJavaScript("$('footer').remove()");
 
